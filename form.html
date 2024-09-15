@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms testing</title>
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <label for="Email">Email</label>
+        <input type="Email" id="Email" name="Email"required>
+        <br><br>
+        <label for="pasword">Password</label>
+        <input type="password"id="Password"name="Password"required pattern="[A-Z][a-z]*">
+        <br><br>
+        <label for="number">Age</label>
+        <input type="number" id="age"min="18"max="80" required><br><br>
+        <label for="username">Name</label>
+        <input type="Name"id="username"name="username"required>
+        <br><br>
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile"name="mobile" required><br><br>
+        <input type="submit">
+    </form>
+        
+</body>
+</html>
